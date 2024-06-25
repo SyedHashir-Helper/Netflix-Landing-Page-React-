@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    margin-top: 0.5rem;
+}
+
+.header--logo{
+    padding-left: 12%;
+    padding-top: 0.8rem;
+}
+.header--signin{
+    padding-right: 12%;
+    padding-top: 0.4rem;
+}
+
+.h-signin-button{
+    border-radius: 0.3rem ;
+    background-color: rgb(216, 0, 0); 
+    border: none;
+    color: white;
+    padding: 0.3rem 0.9rem;
+}
+.h-signin-button:hover{
+    background-color: rgb(180, 1, 1);
+}
+
+.header--hero{
+    width: 100%;
+    background-image: url("./../assets/images/ntbg.png");
+    background-color: black;
+    height: 92vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

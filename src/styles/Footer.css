@@ -1,0 +1,11 @@
+.footer-item{
+    padding: 1em;
+}
+.footer--section{
+    background-color: black;
+    color: white;
+    padding: 2em 0em;
+}
+.footer-developer{
+    text-align: center;
+}

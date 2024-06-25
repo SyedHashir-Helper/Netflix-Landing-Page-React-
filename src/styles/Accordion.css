@@ -1,0 +1,25 @@
+.accordion-item{
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1em 1em;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s ease;
+    font-size: 1.5em;
+}
+.accordion-title{
+    padding: 1em 1em;
+    background-color: #3b3a3af6;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.accordion-content{
+    background-color: #3b3a3af6;
+    padding: 1em;
+    color: white;
+    margin-top: 0.2em;
+}

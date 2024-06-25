@@ -1,0 +1,39 @@
+.field-text-area{
+    position: relative;
+    line-height: 2.8rem;
+    width: 100%;
+}
+
+.field-text-area input{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    font-size: 0.85rem;
+    color: white;
+    border-radius: 0.2rem;
+    border: 0.1px solid white;
+    transition: 0.1 ease;
+    z-index: 10;
+    padding-left: 1rem;
+}
+
+.text-label{
+    color: white;
+    font-size: 0.9em;
+    padding: 0px 0.3rem;
+    transition: 0.2s ease;
+
+}
+.field-text-area input:focus{
+    color: white;
+    border: 2px solid white;
+}
+
+.field-text-area input:focus + .text-label{
+    color: white;
+    transform: translate(-0.2em, -.7em) scale(0.6);
+    line-height: 3rem;
+    text-align: end;
+    background-color: transparent;
+}
