@@ -7,7 +7,7 @@
     color: white;
     font-family: Verdana, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     padding-bottom: 13rem;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hero-text-1{
@@ -25,13 +25,16 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
     margin: 0.8rem;
+    text-align: center;
 }
 
 .hero-input-button{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50vw;
-    justify-content: space-evenly;
+    /* background-color: red; */
 }
 .hero-textField{
-    width: 40%;
+    /* padding: 4%; */
 }
